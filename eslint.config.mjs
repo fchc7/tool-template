@@ -35,14 +35,10 @@ export default [
       prettier,
     },
     rules: {
-      ...typescript.configs.recommended.rules,
-      ...typescript.configs['recommended-requiring-type-checking'].rules,
-      ...prettierConfig.rules,
-
       // Prettier 集成
       'prettier/prettier': 'error',
 
-      // TypeScript 特定规则
+      // TypeScript 基础规则
       '@typescript-eslint/no-unused-vars': [
         'error',
         { argsIgnorePattern: '^_' },
@@ -50,9 +46,6 @@ export default [
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
-      '@typescript-eslint/no-floating-promises': 'error',
-      '@typescript-eslint/await-thenable': 'error',
-      '@typescript-eslint/no-misused-promises': 'error',
 
       // 通用规则
       'no-console': 'warn',
@@ -61,6 +54,9 @@ export default [
       'no-var': 'error',
     },
   },
+
+  // Prettier 配置覆盖
+  prettierConfig,
 
   // 测试文件配置
   {

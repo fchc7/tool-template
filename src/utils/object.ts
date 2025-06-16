@@ -12,7 +12,6 @@ export function deepClone<T>(obj: T): T {
 
   if (obj instanceof Date) return new Date(obj.getTime()) as T;
   if (Array.isArray(obj)) {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return obj.map(item => deepClone(item)) as unknown as T;
   }
 
