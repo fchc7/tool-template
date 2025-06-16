@@ -1,6 +1,6 @@
 # 工具库模板
 
-[![CI](https://github.com/your-username/tool-template/workflows/CI/badge.svg)](https://github.com/your-username/tool-template/actions)
+[![CI](https://github.com/fchc7/tool-template/workflows/CI/badge.svg)](https://github.com/fchc7/tool-template/actions)
 [![npm version](https://badge.fury.io/js/tool-template.svg)](https://badge.fury.io/js/tool-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
