@@ -1,0 +1,80 @@
+# Source files
+src/
+tests/
+*.test.ts
+*.spec.ts
+
+# Config files
+.eslintrc.*
+.prettierrc.*
+commitlint.config.*
+vitest.config.*
+rollup.config.*
+tsconfig.*
+
+# Development files
+.husky/
+.github/
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output
+
+# Environment variables
+.env
+.env.test
+.env.production
+
+# Cache
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Temporary
+tmp/
+temp/
+
+# Build tools
+.eslintcache
+
+# Development dependencies
+node_modules/
+
+# Keep only these files
+!dist/
+!README.md
+!README_EN.md
+!LICENSE
+!package.json 
